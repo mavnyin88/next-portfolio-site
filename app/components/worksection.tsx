@@ -2,9 +2,16 @@ const projects = [
   {
     title: "Tech Talent Pipeline",
     description: "NYC campaign across subways and buses driving 1,000+ sign-ups for tech training programs.",
-    tech: "SquareSpace · JavaScript · jQuery",
+    tech: "SquareSpace · JavaScript · CSS",
     image: "https://www.michaelavnyin.com/img/ttp-nyc.jpg",
     url: "https://ttp.nyc/",
+  },
+  {
+    title: "Chromastics",
+    description: "Created a custom e-commerce site for a professional hair-color brand that offers salon-grade, mixable color products for stylists.",
+    tech: "Wordpress · JavaScript · CSS · Gravity Forms",
+    image: "https://www.michaelavnyin.com/img/chromastics-portfolio-card.png",
+    url: "https://chromastics.com/",
   },
   {
     title: "Spire Energy",
@@ -12,14 +19,7 @@ const projects = [
     tech: "Greensock · JavaScript · CSS",
     image: "https://www.michaelavnyin.com/img/spire.jpg",
     url: "https://www.spireenergy.com/spire-year-review/",
-  },
-  {
-    title: "Cassidy Coordinates",
-    description: "Wedding coordinator site designed in Sketch with a custom WordPress build and SASS architecture.",
-    tech: "WordPress · SASS · BEM · Sketch",
-    image: "https://www.michaelavnyin.com/img/casscoord.png",
-    url: "http://www.cassidycoordinates.com/",
-  },
+  }
 ];
 
 const WorkSection = () => (
